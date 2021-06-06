@@ -120,6 +120,8 @@ For Metricbeat installation:
 - Attached is what Kibana will display for successful Metricbeat installation with a different IP addres of your ELK Machine
 - [Metricbeat Module Status.png](https://github.com/horsley11/ELK-Stack-Configuration/blob/main/Images/MetricBeat%20Module.PNG)
 
+### Further installation of Beats
+
 - To properly download two types of beats, the Metricbeat and Filebeat, two seperate playbooks will be ran to ensure proper installation of each individual beat on each server. In this file, I have attached the two playbooks which are named: filebeat-playbook.yml and metricbeat-playbook.yml. It can then be copied using the filepath of /etc/ansible/roles.
 
 - After copying the playbook to the roles directory, we will want to update the host file located in the Ansible directory because it allows us to run the playbook on whichever specified machine that we choose. To properly ensure which machine will receive Filebeat and which will receive the ELK server, modification of the hosts file is needed. Around the bottom of the file, we will make sure to add in the IP addresses for the webservers that will have Filebeat installed on. An additional line will then be added specifically for just the ELK server with its private IP address.
