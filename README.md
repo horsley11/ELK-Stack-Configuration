@@ -80,7 +80,7 @@ To properly install and implement a Docker container on your Virtual Machine, yo
 
 The following screenshot displays the result of running `docker ps -a` after successfully configuring the ELK instance.
 
-ELK Terminal.PNG
+[ELK Terminal.PNG](https://github.com/horsley11/ELK-Stack-Configuration/blob/main/Images/ELK%20Terminal.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
