@@ -111,14 +111,14 @@ For Filebeat installation:
 - Update the filebeat-config.yml file to include the ELK-Machine's private IP address. Specifically update lines 1106 and 1806 with the ELK-Machine's IP address.
 - Run the playbook, and navigate to http://[your-Elk-Machine-Public-IP-Address]:5601/app/kibana to check that the installation worked as expected.
 - Attached is what Kibana will display for successful Filebeat installation with a different IP address of your ELK Machine
-[Filebeat Module Status.png](https://github.com/horsley11/ELK-Stack-Configuration/blob/main/Images/FileBeat%20Module%20status.PNG)
+- [Filebeat Module Status.png](https://github.com/horsley11/ELK-Stack-Configuration/blob/main/Images/FileBeat%20Module%20status.PNG)
 
 For Metricbeat installation:
 - Copy the metricbeat-config.yml file to /etc/ansible.
 - Update the metricbeat-config.yml file to include the ELK-Machine's private IP address. Specifically update lines 62 and 96 with the ELK-Machine's IP address.
 - Run the playbook, and navigate to http://[your-Elk-Machine-Public-IP-Address]:5601/app/kibana to check that the installation worked as expected.
 - Attached is what Kibana will display for successful Metricbeat installation with a different IP addres of your ELK Machine
-[Metricbeat Module Status.png](https://github.com/horsley11/ELK-Stack-Configuration/blob/main/Images/MetricBeat%20Module.PNG)
+- [Metricbeat Module Status.png](https://github.com/horsley11/ELK-Stack-Configuration/blob/main/Images/MetricBeat%20Module.PNG)
 
 - To properly download two types of beats, the Metricbeat and Filebeat, two seperate playbooks will be ran to ensure proper installation of each individual beat on each server. In this file, I have attached the two playbooks which are named: filebeat-playbook.yml and metricbeat-playbook.yml. It can then be copied using the filepath of /etc/ansible/roles.
 
