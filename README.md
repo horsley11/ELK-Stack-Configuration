@@ -120,7 +120,7 @@ For Metricbeat installation:
 - Attached is what Kibana will display for successful Metricbeat installation with a different IP addres of your ELK Machine
 - [Metricbeat Module Status.png](https://github.com/horsley11/ELK-Stack-Configuration/blob/main/Images/MetricBeat%20Module.PNG)
 
-### Further installation of Beats
+### Further implementation of the Playbooks
 
 - To properly download two types of beats, the Metricbeat and Filebeat, two seperate playbooks will be ran to ensure proper installation of each individual beat on each server. In this file, I have attached the two playbooks which are named: filebeat-playbook.yml and metricbeat-playbook.yml. It can then be copied using the filepath of /etc/ansible/roles.
 
