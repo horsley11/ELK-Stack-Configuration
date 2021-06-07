@@ -28,7 +28,7 @@ Load balancing ensures that the application will be highly available, in additio
 Load balancers provide security to a network by equally distributing traffic across multiple servers, thus reducing chances for a single point of failure. By doing this, it eliminates the chances for a DDoS attack.
 
 A jump box is an additional layer of security in which it has been configured to determine which devices are allowed acccess to a virtual network, and which are not. It is usually found between two firewalls and given extra protocols.
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the network and system logs.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the network and system logs. To monitor the VMs, individual Beats are installed on each device. Two particular beats that is used will be: Filebeat and Metricbeat.
 
 Filebeat gathers specific logs on each server that are fed into Logstash for later analysis. 
 
