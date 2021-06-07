@@ -69,7 +69,7 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it allows us to simply automate the manual process of updating and securing our webserver systems. Rather we can run a playbook to do a variety of downloading, updating, expanding memory, and launching containers.
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it allows us to simply automate the manual process of updating and securing our webserver systems. Rather, a playbook is ran to do a variety of downloading, updating, expanding memory, and launching containers.
 
 To properly install and implement a Docker container on your Virtual Machine, you will run the following playbook tasks:
 - Install Docker
@@ -89,12 +89,12 @@ This ELK server is configured to monitor the following machines:
 - Web-2 : 10.0.0.5
 - Web-3 : 10.0.0.7
 
-We have installed the following Beats on these machines:
+Installation of the following Beats on these machines are:
 
 - Metricbeat
 - Filebeat
 
-These Beats allow us to collect the following information from each machine:
+These Beats allow you to collect the following information from each machine:
 
 - Metricbeat will monitor the usage of computer processing power (CPU), memory (RAM), anything dealing with the workload of the machine. For example, if a server's CPU usage starts to approach a specific threshold limit, Metricbeat will relay that information to determine whether or not additional CPU power needs to be added to mitigate a potential source of failure.
 
